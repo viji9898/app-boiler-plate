@@ -27,9 +27,15 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>From Faunadb:</p>
-        <p>
-          <code>"{helloWorld.title}"</code>.
-        </p>
+        {helloWorld ? (
+          <p style={{ backgroundColor: "green" }}>
+            <code>"{helloWorld.title}"</code>.
+          </p>
+        ) : (
+          <p style={{ backgroundColor: "red" }}>
+            "ERROR - Faunadb Not Connected"
+          </p>
+        )}
         <a
           className="App-link"
           href="https://reactjs.org"
