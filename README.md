@@ -7,7 +7,7 @@
 - git push origin main
 
 ## Getting Started with the App
-- npm install
+-  ### `npm install`
 - ntl dev 
 
 ## Upload to Netlify
