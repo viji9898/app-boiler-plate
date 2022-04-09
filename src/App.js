@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Button } from "antd";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { LandingPage } from "./components/LandingPage";
 
 function App() {
   const [helloWorld, setHelloWorld] = useState("");
@@ -21,33 +22,20 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>From Faunadb:</p>
-        {helloWorld ? (
-          <p style={{ backgroundColor: "green" }}>
-            <code>"{helloWorld.title}"</code>.
-          </p>
-        ) : (
-          <p style={{ backgroundColor: "red" }}>
-            "ERROR - Faunadb Not Connected"
-          </p>
-        )}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button>Ant Button</Button>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={<LandingPage helloWorld={helloWorld} />}
+        />
+        <Route
+          exact
+          path="/*"
+          element={<LandingPage helloWorld={helloWorld} />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
