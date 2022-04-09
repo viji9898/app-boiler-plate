@@ -1,4 +1,12 @@
 # Getting Started with Create React App
+- remove the init - rm -rf .git
+- git init
+- git add .
+- git commit -m"initial-commit"
+- git remote add origin https://github.com/viji9898/APP-NAME
+- git push origin main
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
