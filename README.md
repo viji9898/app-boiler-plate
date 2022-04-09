@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+## Cloning the APP
 - remove the init - rm -rf .git
 - git init
 - git add .
 - git commit -m"initial-commit"
 - git remote add origin https://github.com/viji9898/APP-NAME
 - git push origin main
+
+## Getting Started with the App
+- npm install
+- ntl dev 
+
+## Upload to Netlify
+- add a new exist repo github
+
+## Faunadb setup
+- add .env file 
+- create database
+- security key
+- update netfliy environmental variable 
+
+- ALL DONE - 
+
 
 # Getting Started with Create React App
 
