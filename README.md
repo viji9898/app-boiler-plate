@@ -49,6 +49,8 @@ The app is intended to provide a boiler plate for a single page app.
 - Add environment variables from .env file
 - re `Deploy`
 
+👍🏾 - well done!
+
 Runs the app in the development mode.\
 Open [http://localhost:8888](http://localhost:8888) to view it in your browser.
 
