@@ -12,7 +12,7 @@ export const LandingPage = ({ helloWorld }) => {
         ogImage={
           "https://app-viji.s3.eu-west-2.amazonaws.com/starter-app/og-image-starter-app-1200x627-01.png"
         }
-        ogUrl={`/`}
+        ogUrl={``}
       />
       <header className="App-header">
         <img
