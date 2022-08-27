@@ -11,9 +11,6 @@ export const LandingPage = ({ helloWorld }) => {
           className="App-logo"
           alt="logo"
         />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <p>From Faunadb:</p>
         {helloWorld ? (
           <p style={{ backgroundColor: "green" }}>
