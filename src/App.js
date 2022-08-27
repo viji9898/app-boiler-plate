@@ -4,6 +4,7 @@ import axios from "axios";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { LandingPage } from "./components/LandingPage";
+import { NotFound } from "./utils/notFound";
 
 function App() {
   const [helloWorld, setHelloWorld] = useState("");
@@ -29,11 +30,7 @@ function App() {
           path="/"
           element={<LandingPage helloWorld={helloWorld} />}
         />
-        <Route
-          exact
-          path="/*"
-          element={<LandingPage helloWorld={helloWorld} />}
-        />
+        <Route exact path="/*" element={<NotFound />} />
       </Routes>
     </Router>
   );
