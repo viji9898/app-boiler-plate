@@ -1,8 +1,19 @@
 import { Button } from "antd";
+import { DynamicMetaTags } from "../utils/dynamicMetaTags";
 
 export const LandingPage = ({ helloWorld }) => {
   return (
     <div className="App">
+      <DynamicMetaTags
+        ogTitle={`Starter App`}
+        ogDescription={
+          "Starter boiler plate app includes, faunadb, netlify, ant design, axios"
+        }
+        ogImage={
+          "https://app-viji.s3.eu-west-2.amazonaws.com/starter-app/og-image-starter-app-1200x627-01.png"
+        }
+        ogUrl={`/`}
+      />
       <header className="App-header">
         <img
           src={
