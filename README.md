@@ -17,6 +17,19 @@ The app is intended to provide a boiler plate for a single page app.
 - clone the repo
   `git clone https://github.com/viji9898/app-boiler-plate.git <folder-name>`
 
+### Connect to Github Repo
+
+- create a new repo
+- follow instructions to connect github repo to local repo
+
+### already connected to a repo?
+
+- ``rm -rf .git`
+- `git init`
+- `git add.`
+- `git commit -m"initial-commit-boiler-plate"`
+- `git push`
+
 - install locally
   `npm install`
 
