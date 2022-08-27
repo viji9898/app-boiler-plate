@@ -46,6 +46,8 @@ The app is intended to provide a boiler plate for a single page app.
 - from netlfiy dashboard `Add new site` - `Import an exisiting project` - `GitHub`
 - select repo
 - `Deploy`
+- Add environment variables from .env file
+- re `Deploy`
 
 Runs the app in the development mode.\
 Open [http://localhost:8888](http://localhost:8888) to view it in your browser.
