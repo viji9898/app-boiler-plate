@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { LandingPage } from "./components/LandingPage";
 import { NotFound } from "./utils/notFound";
+import { NavBar } from "./utils/navBar";
 
 function App() {
   const [helloWorld, setHelloWorld] = useState("");
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <Router>
+      <NavBar />
       <Routes>
         <Route
           exact
