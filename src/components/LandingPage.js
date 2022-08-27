@@ -1,11 +1,16 @@
 import { Button } from "antd";
-import logo from "../logo.svg";
 
 export const LandingPage = ({ helloWorld }) => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={
+            "https://app-viji.s3.eu-west-2.amazonaws.com/rocket-icon-vector-starter-app.svg"
+          }
+          className="App-logo"
+          alt="logo"
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,15 +24,15 @@ export const LandingPage = ({ helloWorld }) => {
             "ERROR - Faunadb Not Connected"
           </p>
         )}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+
+        <Button
+          type="link"
+          href="https://github.com/viji9898/app-boiler-plate"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
-        <Button>Ant Button</Button>
+          Learn About Starter App
+        </Button>
       </header>
     </div>
   );
