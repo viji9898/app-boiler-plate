@@ -28,7 +28,7 @@ The app is intended to provide a boiler plate for a single page app.
 - `git init`
 - `git add.`
 - `git commit -m"initial-commit-boiler-plate"`
-- `git push`
+- `git push --set-upstream origin main`
 
 - install locally
   `npm install`
