@@ -5,9 +5,9 @@ export const LandingPage = ({ helloWorld }) => {
   return (
     <div className="App">
       <DynamicMetaTags
-        ogTitle={`Starter App`}
+        ogTitle={`Stealth Mode`}
         ogDescription={
-          "Starter boiler plate app includes, faunadb, netlify, ant design, axios"
+          "Starter boiler plate app includes, faunadb, netlify, ant design, axios - Stealth Mode"
         }
         ogImage={
           "https://app-viji.s3.eu-west-2.amazonaws.com/starter-app/og-image-starter-app-1200x627-01.png"
@@ -22,8 +22,8 @@ export const LandingPage = ({ helloWorld }) => {
           className="App-logo"
           alt="logo"
         />
-        <p>From Faunadb:</p>
-        {helloWorld ? (
+        {/* <p>- Stealth Mode -</p> */}
+        {/* {helloWorld ? (
           <p style={{ backgroundColor: "green" }}>
             <code>"{helloWorld.title}"</code>.
           </p>
@@ -31,15 +31,15 @@ export const LandingPage = ({ helloWorld }) => {
           <p style={{ backgroundColor: "red" }}>
             "ERROR - Faunadb Not Connected"
           </p>
-        )}
+        )} */}
 
         <Button
           type="link"
-          href="https://github.com/viji9898/app-boiler-plate"
+          href="https://en.wikipedia.org/wiki/Stealth_mode"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn About Starter App
+          - Stealth Mode -
         </Button>
       </header>
     </div>

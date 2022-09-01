@@ -2,7 +2,7 @@ import { Layout, Menu, Avatar, Drawer, Button, Space } from "antd";
 import React, { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 
-import { UserOutlined, MenuOutlined } from "@ant-design/icons";
+import { UserOutlined } from "@ant-design/icons";
 
 export const NavBar = () => {
   const [visible, setVisible] = useState(false);
@@ -63,19 +63,19 @@ export const NavBar = () => {
                 alt="logo"
               />
               <Link style={{ marginLeft: "5px" }} to="/">
-                Starter App
+                Stealth Mode
               </Link>
             </Space>
           </div>
           <div className="navbar-menu">
             <div className="leftMenu">
-              <LeftMenu mode={"horizontal"} />
+              {/* <LeftMenu mode={"horizontal"} /> */}
             </div>
             <Button className="menuButton" type="text" onClick={showDrawer}>
-              <MenuOutlined />
+              {/* <MenuOutlined /> */}
             </Button>
             <div className="rightMenu">
-              <RightMenu mode={"horizontal"} />
+              {/* <RightMenu mode={"horizontal"} /> */}
             </div>
             <Drawer
               title={"Starter App"}
