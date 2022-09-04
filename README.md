@@ -26,6 +26,7 @@ The app is intended to provide a boiler plate for a single page app.
 
 - `rm -rf .git`
 - `git init`
+- `git remote add origin <remote-repo.git>`
 - `git add.`
 - `git commit -m"initial-commit-boiler-plate"`
 - `git push --set-upstream origin main`
