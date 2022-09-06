@@ -1,4 +1,5 @@
 import { Button } from "antd";
+import { Footer } from "../components/navigation/footer";
 import { DynamicMetaTags } from "../utils/dynamicMetaTags";
 
 export const LandingPage = ({ helloWorld }) => {
@@ -42,6 +43,9 @@ export const LandingPage = ({ helloWorld }) => {
           Learn About Starter App
         </Button>
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
