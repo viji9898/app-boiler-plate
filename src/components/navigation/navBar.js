@@ -1,8 +1,6 @@
 import { Layout, Menu, Space } from "antd";
 import { Link } from "react-router-dom";
 
-import { UserOutlined } from "@ant-design/icons";
-
 export const NavBar = () => {
   const LeftMenu = ({ mode }) => {
     return (
