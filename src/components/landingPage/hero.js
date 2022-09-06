@@ -1,4 +1,5 @@
 import { Button, Col, Row } from "antd";
+import { GithubOutlined } from "@ant-design/icons";
 
 export const Hero = ({ helloWorld }) => {
   return (
@@ -22,7 +23,7 @@ export const Hero = ({ helloWorld }) => {
                 marginLeft: "50px",
               }}
             >
-              <h1> - Boiler Plate App - </h1>
+              <h1> - Boiler Plate App v2.01- </h1>
             </div>
           </Col>
         </Row>
@@ -52,6 +53,7 @@ export const Hero = ({ helloWorld }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <GithubOutlined />
               Github
             </Button>
           </Col>
